@@ -1,3 +1,5 @@
+<h2>Go and Checkout this Live Project</h1>
+<a src="https://covid-19-tracker-by-tejas.web.app/">https://covid-19-tracker-by-tejas.web.app/</a>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
