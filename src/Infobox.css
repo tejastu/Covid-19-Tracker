@@ -1,0 +1,43 @@
+.infoBox{
+    flex: 1;
+    cursor: pointer;
+}
+.infoBox:hover{
+    background-color: rgb(234, 243, 248);
+}
+.infoBox:not(:last-child)
+{
+    margin-right: 15px;
+}
+.infoBox--selected{
+    border-top: 10px solid rgb(40, 170, 14);
+}
+.infoBox--red{
+    border-color: #ff3300;
+}
+.infoBox_cases{
+    color: #ff3300;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    font-family: sans-serif; 
+}
+.infoBox_cases--green{
+    color: rgb(40, 170, 14) !important;
+}
+
+.infoBox_total{
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-bottom: 15px !important; 
+}
+@media (max-width: 990px) {
+    .infoBox_cases{
+        color: #ff3300;
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        font-family: sans-serif; 
+    }
+}
